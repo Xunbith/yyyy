@@ -1,0 +1,151 @@
+{
+  "class": "go.GraphLinksModel",
+  "nodeDataArray": [
+    {
+      "key": -1,
+      "text": "Студент",
+      "figure": "RoundedRectangle",
+      "fill": "#ffffff",
+      "stroke": "#000000",
+      "strokeWidth": 2
+    },
+    {
+      "key": -2,
+      "text": "Сотрудник",
+      "figure": "RoundedRectangle",
+      "fill": "#ffffff",
+      "stroke": "#000000",
+      "strokeWidth": 2
+    },
+    {
+      "key": -3,
+      "text": "Деканат",
+      "figure": "RoundedRectangle",
+      "fill": "#ffffff",
+      "stroke": "#000000",
+      "strokeWidth": 2
+    },
+    {
+      "key": -4,
+      "text": "Отдел кадров",
+      "figure": "RoundedRectangle",
+      "fill": "#ffffff",
+      "stroke": "#000000",
+      "strokeWidth": 2
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": -1,
+      "to": -3,
+      "text": "Подать заявление на поступление",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -3,
+      "to": -1,
+      "text": "Принять заявление и зачислить студента",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -1,
+      "to": -3,
+      "text": "Подать заявление на отчисление",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -3,
+      "to": -1,
+      "text": "Принять заявление и отчислить студента",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -1,
+      "to": -3,
+      "text": "Подать заявление на перевод из группы в группу",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -3,
+      "to": -1,
+      "text": "Принять заявление и перевести студента",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -2,
+      "to": -4,
+      "text": "Подать заявление на приём на работу",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -4,
+      "to": -2,
+      "text": "Принять заявление и принять сотрудника на работу",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -2,
+      "to": -4,
+      "text": "Подать заявление на увольнение",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -4,
+      "to": -2,
+      "text": "Принять заявление и уволить сотрудника",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -2,
+      "to": -4,
+      "text": "Подать заявление на перевод из отдела в отдел",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -4,
+      "to": -2,
+      "text": "Принять заявление и перевести сотрудника",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -3,
+      "to": -2,
+      "text": "Получить сведения о сотрудниках деканата",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -2,
+      "to": -3,
+      "text": "Предоставить сведения о сотрудниках деканата",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -4,
+      "to": -2,
+      "text": "Получить сведения о сотрудниках отдела кадров",
+      "fromPort": "B",
+      "toPort": "T"
+    },
+    {
+      "from": -2,
+      "to": -4,
+      "text": "Предоставить сведения о сотрудниках отдела кадров",
+      "fromPort": "B",
+      "toPort": "T"
+    }
+  ]
+}
